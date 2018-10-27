@@ -1,1 +1,61 @@
 /* Write your CSS code in this file */
+body { 
+    background-image: url("thinkingcat.gif"), url("mousepattern.jpg");
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-position: right bottom; 
+    background-size: 35%;
+    font-family: Verdana;
+}
+
+.header {
+    color: #228b22;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 35px;
+}
+
+#dialog {
+    background: white;
+}
+
+.buttons {
+    text-align: center;
+    background-color: #25AC9A;
+    border: 2px solid black;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+.buttons:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.guessing-area {
+    text-align: center;
+}
+
+.guessing-area input {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 10px dotted forestgreen;
+    font-size: 50px;
+}
+
+.guessing-area input:focus {
+    border: 10px dotted goldenrod;
+    outline: none;
+}
+
+.previous-guesses {
+    text-align: center;
+}
+
+.previous-guesses input {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+}
